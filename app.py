@@ -22,9 +22,7 @@ FRmodel = load_model('triplet_loss_model.h5',custom_objects={'triplet_loss': tri
 #%%
 def creating_database():
     
-    #This function creates a dictionary for our database and stores in pickle format 
-    
-    #Returns: pickled dictionary
+    #This function creates a dictionary for our database
     
     database = {}  # Python dictionary, {key:name, value:encodings}
     for images in glob.glob('images/*'):
