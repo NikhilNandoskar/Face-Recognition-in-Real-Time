@@ -39,8 +39,3 @@ If the distance between the calculated encoding and stored encoding is less than
 References:
 Coursera: https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning
 More on MTCNN: https://towardsdatascience.com/how-does-a-face-detection-program-work-using-neural-networks-17896df8e6ff
-
-
-
-
-
