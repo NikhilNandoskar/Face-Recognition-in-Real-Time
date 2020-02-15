@@ -16,7 +16,7 @@ The distance is calculated by the following formula
 **d(x(1), x(2)) = || f(x(1)) – f(x(2) ||<sup>2**
 
 Here we use **triplet loss function**
-During training we have three images: an anchor image of a person (A), a positive image of the same person (P), negative image of a different person (N)
+During training we have three images: an anchor image of a person (A), a positive image of the same person (P), negative image (image of a different person) (N)
 
 Triplet loss function is calculated by following formula
 
