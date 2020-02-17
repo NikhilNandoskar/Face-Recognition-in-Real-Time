@@ -33,7 +33,7 @@ This program compiles the triplet loss with the pre-trained FaceNet model and st
 Next step is to create your own database, for this you need one single image of every individual. The function "def creating_database()" generated a dictionary which stores "name" as "key" and "image embeddings" as "value".
 
 The above function is in app.py. After creating the database you can grab an image from your webcam using OpenCV. Multitask Cascaded Convolutional Network (MTCNN) is used to detect faces from images.
-After detecting face you crop the image and feed it into FcaeNet model for calculating encodings. This encoding is compared with the encodings from the database. L2 distance norm is used for comparison. 
+After detecting face you crop the image and feed it into FaceNet model for calculating encodings. This encoding is compared with the encodings from the database. L2 distance norm is used for comparison. 
 If the distance between the calculated encoding and stored encoding is less than a minimum threshold, the program outputs the name of the person else "Not in database".
 
 References:
